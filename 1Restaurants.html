@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant Search</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  marquee
+  {
+    background-color: #6c8288;
+    padding:10px;
+    text-align: center;
+    color: rgb(28, 9, 6);
+  }
+  header {
+    background-color: #182124;
+    color: rgb(231, 203, 203);
+    padding: 10px;
+    text-align: center;
+  }
+  button 
+  {
+    background-color: #6c8288;
+    background-color:;
+    border:5px ;
+    color: rgb(43, 25, 25);
+    padding: 5px 10px;
+    text-align: center;     
+    font-size: 15px;
+}
+  section 
+  {
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #051d21;
+    border-radius: 10px;
+  }
+  textarea
+   {
+    width: 100%;
+    padding: 10px;
+  }
+  article 
+  {
+    margin: 10px 0;
+    padding: 10px;
+    border: 3px solid #280e0e;
+    border-radius: 10px;
+    background-color: #6c8288;
+    color: rgb(57, 7, 32);
+  }
+</style>
+</head>
+<body>
+    <marquee width="100%" direction="right" height="10px" >
+         ....Restaurants in Hyderabad....
+        </marquee>
+  <header>
+    <h1>Restaurants</h1>
+  </header>
+  <section>
+    <h2>Filters</h2>
+    <label for="location">Location:</label>    
+    <input type="text" id="location" name="location">
+    <br/>
+    <br/>
+     
+    
+    <label for="cuisine">Cuisine:</label>
+    <input type="text" id="cuisine" name="cuisine"> 
+     <button id="filterBtn" >Apply Filter</button>
+  </section>
+  <section>
+    <h2>Sort Options</h2>
+    <label for="sort">Sort By:</label>
+    <select id="sort" name="sort">
+      <option value="name">Name</option>
+      <option value="rating">Rating</option>
+      <option value="cuisine">cuisine</option>
+    </select>
+    <button id="sortBtn">Apply Sort</button>
+  </section>
+  <section>
+    <h2>Search Results</h2>
+     
+    <article>
+      <h3>Deccan Pavilion</h3>
+      <p>Location: Begumpet,Hyderabad</p>
+      <p>Cuisine: Indian,Asian</p>
+      <p>Rating: 5.0</p>
+    </article>
+    <article>
+        <h3>Asian Treat</h3>
+        <p>Location : Banjara Hills,Hyderabad</p>
+        <p>Cuisine: Korean,Asian</p>
+        <p>Rating: 5.0</p>
+      </article>
+      <article>
+        <h3>Komatose</h3>
+        <p>Location: Gacchibowli,Hyderabad</p>
+        <p>Cuisine: Japanese</p>
+        <p>Rating: 4.5</p>
+      </article>
+    <article>
+        <h3>Yi Jing </h3>
+        <p>Location: hyderabad</p>
+        <p>Cuisine: Chinese</p>
+        <p>Rating:5.0</p>
+      </article>
+      <article>
+        <h3>Mekong</h3>
+        <p>Location: Begumpet, Hyderabad</p>
+        <p>Cuisine: Thai ,Vietnamese</p>
+        <p>Rating: 5.0</p>
+      </article>
+    
+  </section>
+</body>
+</html>

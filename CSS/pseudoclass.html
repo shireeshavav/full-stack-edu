@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color:aqua;
+            padding: 20px  40px 10px 20px;
+            text-align: center;
+        }
+        div:hover
+        {
+            background-color: rgb(93, 96, 18);
+            color:whitesmoke ;
+        }
+        p{
+            background-color: rgb(21, 66, 81);
+            padding: 10px;
+
+        }
+        h1:hover p{
+            display:block;
+        }
+        input:focus 
+        {
+background-color: rgb(26, 176, 29);
+        }
+        a.link
+        {
+            color: beige;
+
+        }
+        a.visited
+        {
+            color: rgb(208, 208, 73);
+            
+        }a.hover        {
+            color: rgb(229, 30, 209);
+                      
+        }
+        a.active
+        {
+            color: rgb(10, 103, 184);
+            
+        }
+        p.first-child
+        {
+            background-color: rgb(148, 49, 148);
+        }
+        p.nth-child
+        {
+            background-color: rgb(56, 11, 56);
+        }
+        li{
+            background-color: rgba(204, 161, 4, 0.73);
+        }
+        li:nth-child
+        {
+            background-color:salmon;
+
+        }
+        :nth-child()
+        {
+            padding: 50px;
+        }
+        p::after
+        {
+            content: " with after selctor";
+
+        }
+
+        p::before
+        {
+            content: : "with before selector";
+        }
+
+    </style>
+</head>
+<body>
+    <p> This is the n th child1</p>
+    <div> <p> this is the nth child2</p>
+        <p> this is the nth child3</p>
+    </div>
+    <h1>
+        Hover over me to see P element
+        <p> happy day </p>
+    
+    </h1>
+    <h1> first child </h1>
+    <div> Touch here</div>
+    <br/>
+    <h1>
+        Hover Over me to see the P element
+        <p>Have a Happy Day🥳🥳🥳</p>
+      </h1>
+       
+    <label> FirstName </label>
+    <input type ="text" name ="FirstName"id="FirstName"/>
+    <a href="  www.flipkart.com" target="_blank"> image</a>
+    <h1> hello </h1>
+    <h1> hi</h1>
+    <div>
+        <ul>
+            <li> SAMSUNG</li>
+            <li>APPLE</li>
+            <li> REDMI</li>
+        </ul>
+    </div>
+
+</body>
+</html>
